@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script type="module" src="wcloader.js"></script>
+  </head>
+  <body>
+    <h1>WebComponents + PostCSS + RollUp</h1>
+    <h2>Samples</h2>
+
+    <div class="page">
+      <h3>Block Components</h3>
+
+      <div class="canvas">
+        <block-component></block-component>
+        <block-component style="--color: steelblue"></block-component>
+        <block-component style="--color: #f64"></block-component>
+        <block-component style="--color: #912"></block-component>
+        <block-component style="--color: #194"></block-component>
+      </div>
+
+      <h3>SpinnerLoading</h3>
+
+      <div class="canvas">
+        <spinner-loading></spinner-loading>
+        <spinner-loading type="square"></spinner-loading>
+        <spinner-loading type="star"></spinner-loading>
+        <spinner-loading type="leaf"></spinner-loading>
+      </div>
+
+      <h3>FancyButton</h3>
+
+      <div class="canvas">
+        <fancy-button>Please, press me!</fancy-button>
+        <fancy-button disabled>Disabled, sorry!</fancy-button>
+      </div>
+
+      <h3>YoutubeVideo</h3>
+      <div class="canvas">
+        <youtube-video
+          v="8ZspunA4HlM"
+          start="17"
+          size="360p"
+          autoplay
+          no-controls
+        ></youtube-video>
+        <youtube-video v="az0HIa1BeAg" size="240p"></youtube-video>
+      </div>
+    </div>
+  </body>
+</html>

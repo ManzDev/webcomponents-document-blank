@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Scope+One&display=swap");
+
+body {
+  background: black;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canvas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
